@@ -1,0 +1,8 @@
+{% extends "base.html" %} {% block content %}
+<h1>Hello {{ name | upper}}</h1>
+<ul>
+    {% for f in friends %}
+    <li>{{ f.name }}</li>
+    {% endfor %}
+</ul>
+<img src="pexels-photo.jpg" style="width:100px"> {% endblock %}

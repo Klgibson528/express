@@ -1,0 +1,30 @@
+{
+  "name": "node_express",
+  "version": "1.0.0",
+  "description": "node express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Klgibson528/node_express.git"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "klg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Klgibson528/node_express/issues"
+  },
+  "homepage": "https://github.com/Klgibson528/node_express#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "nodemod": "^1.5.19",
+    "nodemon": "^1.17.4",
+    "nunjucks": "^3.1.3",
+    "pg-promise": "^8.4.4"
+  }
+}
